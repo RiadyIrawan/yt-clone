@@ -1,0 +1,16 @@
+.fiesta{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+
+.foto-izone{
+    display:inline-block ;
+    width: 100%;
+}
+.logo-izone{
+    width: 50px;
+    border-radius: 30px;
+    
+}

@@ -1,0 +1,81 @@
+p{
+    font-family: roboto,arial;
+    font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.video-grid{
+    display: grid;
+              grid-template-columns: 1fr 1fr 1fr;
+              column-gap: 16px;
+              row-gap: 40px;
+}
+@media(max-width: 750px){
+.video-grid{
+    grid-template-columns: 1fr 1fr;
+}
+}
+body{
+    margin:0;
+    padding-top: 80px;
+    height: 3000px;
+    padding-left: 100px;
+    padding-right: 24px;
+}
+
+.iu{
+    width: 100%;  
+    cursor: pointer;
+}
+.thumbnail{
+    position: relative;
+}
+.palette{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    
+}
+.desc-iu{
+   
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    
+}
+
+.judul{
+    
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    cursor: pointer;
+    
+    
+
+}
+.channel{
+    
+    color: grey;
+    padding-top:0;
+    font-size: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+.view{
+    font-size: 15px;
+    color: grey;
+    padding-top: 0px;
+    margin-top: 0;
+}
+.iu-profil{
+    width: 40px;
+    border-radius: 30px; 
+    cursor: pointer;
+}
+.video-info a{
+    vertical-align: top;
+    text-decoration: none;
+    color: black;
+    
+}
